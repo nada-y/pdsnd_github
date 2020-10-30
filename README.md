@@ -2,6 +2,7 @@
 
 30/10/2020
 
+
 ### Project Title
 
 Bikeshare Project 
@@ -10,9 +11,13 @@ Bikeshare Project
 
 Here I persent my Bikeshare Project form Udacity Nanodegree Programe. 
 
+In this project will explore US Bikeshare Data for 3 different cities:
+- Chicago City
+- New York City
+- Washington City
+
 ### Files used
 
-Include the files used
 
 
 
