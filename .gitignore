@@ -1,0 +1,7 @@
+# Ignoring all CSV extension file:
+
+#chicago.csv
+#new_york_city.csv
+#washington.csv
+
+*.csv
