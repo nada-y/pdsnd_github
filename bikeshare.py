@@ -21,6 +21,16 @@ def get_filters():
     while True:
         
             city = str(input('please choose City Name :chicago, new york city, washington : ').lower())
+            if city == 'chicago':
+                print(' You Choose Chicago City')
+
+            if city == 'new york city':
+                print(' You Choose New York City')
+
+            if city == 'washington':
+                print(' You Choose washington City')
+
+                
             if city not in ('chicago','new york city','washington'):
                 print('Invalid input. Please try again.')
                 continue
