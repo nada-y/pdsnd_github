@@ -81,11 +81,13 @@ def first_few_rows(df):
 	row=5
 	while True:
 		if ask_user.lower() == 'yes':
+			print('You choose Yes : ' )
 			print(df.iloc[col:row])
 			row+=5
 			col+=5
 			ask_user= input('\nWould you like  to see raw data? Enter yes or no.\n')
 		else:
+			print('You choose No : ' )
 			break
 
 
