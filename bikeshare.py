@@ -21,6 +21,16 @@ def get_filters():
     while True:
         
             city = str(input('please choose City Name :chicago, new york city, washington : ').lower())
+            if city == 'chicago':
+                print(' You Choose Chicago City')
+
+            if city == 'new york city':
+                print(' You Choose New York City')
+
+            if city == 'washington':
+                print(' You Choose washington City')
+
+                
             if city not in ('chicago','new york city','washington'):
                 print('Invalid input. Please try again.')
                 continue
@@ -71,11 +81,13 @@ def first_few_rows(df):
 	row=5
 	while True:
 		if ask_user.lower() == 'yes':
+			print('You choose Yes : ' )
 			print(df.iloc[col:row])
 			row+=5
 			col+=5
 			ask_user= input('\nWould you like  to see raw data? Enter yes or no.\n')
 		else:
+			print('You choose No : ' )
 			break
 
 
